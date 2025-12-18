@@ -9,34 +9,23 @@ This is my hackpad, which will boost my productivity by a heap.
 
 ## CAD
 My case is a bit complex because I wanted to side mount the oled screen. My case assembly would have 4 parts in total. One is the main body, another one is the bottom plate, another one is a side holder for oled screen and the last one is key plate. The bottom plate fits in place with the main body using a snap fit feature. the top key plate isn't directly attached to the body yet. I think keeping that free, laying over the body won't hurt. And for the side holder that holds the oled screen, I will stick it to the main body using superglue. The parts are shown below!
-<table>
-  <tr>
-    <th align="center">Full Assembly</th>
-    <th align="center">Case without components</th>
-    <th align="center">Main Body</th>
-    <th align="center">Bottom Plate</th>
-    <th align="center">Side Holder</th>
-    <th align="center">Key Plate</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-36-05.png" width="180">
-    </td>
-    <td align="center">
-      <img src="https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-52-31.png" width="180">
-    </td>
-    <td align="center">
-      <img src="https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-37-05.png" width="180">
-    </td>
-    <td align="center">
-      <img src="https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-37-15.png" width="180">
-    </td>
-    <td align="center">
-      <img src="https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-37-41.png" width="180">
-    </td>
-    <td align="center">
-      <img src="https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-38-10.png" width="180">
-    </td>
-  </tr>
-</table>
+Full Assembly   |   Case without components   | Main Body   |   Bottom Plate | Side Holder | Key Plate
+:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
+![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-36-05.png) | ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-52-31.png) | ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-37-05.png) | ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-37-15.png) | ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-37-41.png) | ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Images/Screenshot%20from%202025-12-19%2001-38-10.png) |
 
+
+## PCB
+Designing the pcb and exporting it was the most exhausting thing! Again, this is because my laptop can't handle kicad so I had to use easyeda. Here are schematics and screenshots of the pcb!
+Schematic | PCB
+![]() | ![]()
+
+## BOM
+| ID | Name                                         | Quantity |                |
+|----|----------------------------------------------|----------|----------------|
+| 1  | OLED DISPLAY 128x32 0.91"" I2C SSD1306 STAG5 | 1        |                |
+| 2  | SK6812MINI-EA                                | 16       |                |
+| 3  | CHERRY_CHERRY_MX                             | 14       |                |
+| 4  | RotaryEncoder_Switch                         | 1        |                |
+| 5  | XIAO_RP2040_SEEED                            | 1        |                |
+| 6  | 74HC595A                                     | 1        | (Self Sourced) |
+| 7  | 1N4148                                       | 15       |                |
