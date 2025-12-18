@@ -20,13 +20,17 @@ Schematic   |   PCB |
 :-----------:|:-----------:|
 ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Hackpad_Images/PCB_Images/PCB_SVG.svg) | ![](https://github.com/Nishan-wisdomadventure/Nishan-s-Hackpad/blob/main/Hackpad_Images/PCB_Images/Screenshot%20from%202025-12-19%2002-04-46.png)
 
+
+## Firmware
+The firmware is written in kmk. Not much is added right now, I am gonna experiment and add new things when I get the hackpad in my hands!
+
 ## BOM
 | ID | Name                                         | Quantity |                |
 |----|----------------------------------------------|----------|----------------|
-| 1  | OLED DISPLAY 128x32 0.91"" I2C SSD1306 STAG5 | 1        |                |
-| 2  | SK6812MINI-EA                                | 16       |                |
-| 3  | CHERRY_CHERRY_MX                             | 14       |                |
-| 4  | RotaryEncoder_Switch                         | 1        |                |
-| 5  | XIAO_RP2040_SEEED                            | 1        |                |
-| 6  | 74HC595A                                     | 1        | (Self Sourced) |
-| 7  | 1N4148                                       | 15       |                |
+| 1  | OLED DISPLAY 128x32 0.91"" I2C | 1        |                |
+| 2  | SK6812 MINI-E                                | 16       |                |
+| 3  | MX-Style switches                             | 14       |                |
+| 4  | EC11 Rotary encoders                         | 1        |                |
+| 5  | Seeed XIAO RP2040                            | 1        |                |
+| 6  | 74HC595A Shift Register                                     | 1        | (Self Sourced) |
+| 7  | Through-hole 1N4148 Diodes                                       | 15       |                |
