@@ -1,0 +1,5 @@
+Well, I designed my pcb in Easyeda due to my laptop's performance limitations.
+I wasn't quite sure which files I need to export, so I kinda exported as many as I could.
+
+The "Hackpad_schematic.json" and the "Hackpad_pcb.json" are the schematic and pcb files 
+equivalent to "kicadsch" and "kicad_pcb"
